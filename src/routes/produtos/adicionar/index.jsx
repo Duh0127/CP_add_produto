@@ -1,3 +1,4 @@
+import { ListaProdutos } from "../ListaProdutos";
 import { useNavigate } from "react-router-dom";
 import classes from "./Adicionar.module.css";
 
