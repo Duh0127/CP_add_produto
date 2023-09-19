@@ -1,7 +1,12 @@
-
+import { useNavigate } from "react-router-dom";
+import classes from "./Adicionar.module.css";
 
 export default function AdicionarProduto(){
-    
+    const navigate = useNavigate();
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+    }
 
     return(
         <main className={classes.centralizar}>
