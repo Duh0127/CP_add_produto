@@ -23,6 +23,7 @@ export default function AdicionarProduto(){
             img: img ? img.value : "https://picsum.photos/100/100"
         }
         ListaProdutos.push(novoProduto);
+        navigate('/produtos')
     }
 
     return(
