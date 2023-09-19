@@ -17,7 +17,14 @@ export default function AdicionarProduto(){
                         <label htmlFor="idDesc">Descrição:</label>
                         <input type="text" name='desc' id='idDesc' />
                     </div>
-                    
+                    <div>
+                        <label htmlFor="idPreco">Preço:</label>
+                        <input type="number" min="0" name='preco' id='idPreco' />
+                    </div>
+                    <div>
+                        <label htmlFor="idImg">Imagem:</label>
+                        <input type="text" name='img' id='idImg' />
+                    </div>
                     <button type="submit">Adicionar</button>
                 </fieldset>
             </form>
