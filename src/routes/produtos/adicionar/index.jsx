@@ -7,6 +7,9 @@ export default function AdicionarProduto(){
 
     const handleSubmit = (e) => {
         e.preventDefault();
+
+        const { nome, desc, preco, img } = e.target;
+        
     }
 
     return(
