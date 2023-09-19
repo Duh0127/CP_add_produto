@@ -15,6 +15,13 @@ export default function AdicionarProduto(){
             return;
         }
 
+        const novoProduto = {
+            id: ListaProdutos.length + 1,
+            nome: nome.value,
+            desc: desc.value,
+            preco: preco.value,
+            img: img ? img.value : "https://picsum.photos/100/100"
+        }
         
     }
 
