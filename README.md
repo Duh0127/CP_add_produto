@@ -1,6 +1,3 @@
-# [SITE NA VERCEL](https://projeto-spa-lilac.vercel.app/)
--------------------------------------------------
-
 > # Estrutura de pastas
 > - public: conteúdo estático (não afetado pela programação).
 > - src: todo o conteúdo dentro será reativo no projeto
