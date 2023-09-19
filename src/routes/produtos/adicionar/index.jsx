@@ -22,7 +22,7 @@ export default function AdicionarProduto(){
             preco: preco.value,
             img: img ? img.value : "https://picsum.photos/100/100"
         }
-        
+        ListaProdutos.push(novoProduto);
     }
 
     return(
