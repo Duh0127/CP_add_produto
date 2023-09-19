@@ -13,8 +13,7 @@ export default function Navbar() {
     return (
         <S.Header>
             <S.LogoDiv onClick={handleHomeClick}>
-                <S.LogoImg src="https://www.github.com/duh0127.png" alt="Logo do meu site" />
-                <S.LogoText>551763</S.LogoText>
+                <S.LogoImg src="https://logodownload.org/wp-content/uploads/2016/10/porto-seguro-logo-0.png" alt="Logo do site" />
             </S.LogoDiv>
             <S.Navbar>
                     <S.NavbarLink><Link style={({ height: "100%", display: "flex", alignItems:"center", color:"#7d7d7d", textDecoration: "none" })} to="/">Home</Link></S.NavbarLink>
