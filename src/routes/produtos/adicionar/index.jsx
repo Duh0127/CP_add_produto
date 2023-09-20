@@ -10,7 +10,7 @@ export default function AdicionarProduto(){
 
         const { nome, desc, preco, img } = e.target;
         
-        if(!nome.value || !desc.value || !preco.value || !img.value){
+        if(!nome.value || !desc.value || !preco.value){
             alert('Preencha todos os campos!');
             return;
         }
